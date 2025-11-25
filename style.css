@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* body {
+  background-color: rgb(94, 31, 153);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  border-radius: 20px;
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgb(94, 31, 153);
+}
+
+input {
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: 2px solid rgb(94, 31, 153);
+  outline: none;
+}
+
+#adicionar-button {
+  background-color: rgb(94, 31, 153);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+}
+
+#adicionar-button:hover {
+  background-color: rgb(123, 51, 189);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.inserir-itens {
+  text-align: center;
+}
+
+.cabecario {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 100px 0px 100px;
+  padding: 15px;
+  border-bottom: 2px solid rgb(94, 31, 153);
+  color: rgb(94, 31, 153);
+}
+
+.lista-itens {
+  margin: 0 100px;
+  padding: 15px;
+}
+
+.lista-itens-single {
+  border-bottom: 1px solid rgb(94, 31, 153);
+  color: rgb(94, 31, 153);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px 0; /* Adicione padding vertical para espaço */
+}
+
+#mensagem {
+  color: gray;
+  margin-top: 50px;
+  font-style: italic;
+  text-align: center;
+}
+
+.total {
+  margin-top: 50px;
+}

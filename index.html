@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Lista de Supermercado</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Lista de Supermercado</h1>
+
+    <form class="inserir-itens">
+      <input type="text" name="item-produto" class="input" id="item-produto" placeholder="Item" required/>
+      <input type="number" name="preco-produto" class="input" step="1" id="preco-produto" placeholder="Preço" required/>  
+      <button type="submit" id="adicionar-button">Adicionar</button>
+    </form>
+
+    <div class="cabecario">   
+      <h3>Item</h3>
+      <h3>Preço</h3>
+    </div>
+
+    <span id="mensagem">Os seus itens aparecerão aqui!</span>
+
+    <div class="lista-itens">
+      <!-- Itens adicionados aparecerão aqui -->
+    </div>
+
+    <div class="total">
+      <h1>R$0,00</h1>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
